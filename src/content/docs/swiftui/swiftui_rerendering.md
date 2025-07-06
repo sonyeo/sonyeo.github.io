@@ -15,3 +15,15 @@ Less concerned with telling a story or addressing a specific use case, they shou
 ![alt text](../../../assets/swiftui/swiftui_rerendering/디맥.png)
 
 잘 되나?
+```swift
+Task.detached { // Task.detached 메서드 호출
+    await doSomething()
+}
+
+- let detachedTask = Task.detached(priority: .medium) {
+-     await doSomething()
+- }
++ if (!detachedTask.isCancelled) {
++     detachedTask.cancel()
++ }
+```
