@@ -9,3 +9,9 @@ Less concerned with telling a story or addressing a specific use case, they shou
 ## Further reading
 
 - Read [about reference](https://diataxis.fr/reference/) in the Diátaxis framework
+
+## 이미지 테스트
+한글 테스트  
+![alt text](../../../assets/swiftui/swiftui_rerendering/디맥.png)
+
+잘 되나?
