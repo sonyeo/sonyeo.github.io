@@ -5,6 +5,11 @@ import starlight from '@astrojs/starlight';
 // https://astro.build/config
 export default defineConfig({
 	site: 'https://sonyeo.github.io',
+	markdown: {
+		shikiConfig: {
+			theme: 'github-dark',
+		},
+	},
 	integrations: [
 		starlight({
 			title: 'My Docs',
