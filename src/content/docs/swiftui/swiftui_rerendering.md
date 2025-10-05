@@ -13,6 +13,7 @@ Less concerned with telling a story or addressing a specific use case, they shou
 ## 이미지 테스트
 한글 테스트  
 ![alt text](../../../assets/swiftui/swiftui_rerendering/디맥.png)
+![alt text](./directory_test/images/Flag_of_Italy.svg.png)
 
 잘 되나?
 ```swift
