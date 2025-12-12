@@ -3,10 +3,7 @@
     {
       "label": "SwiftUI",
       "items": [
-        {
-          "label": "[seti:vite] Workflow",
-          "autogenerate": { "directory": "swiftui/workflow" }
-        }
+        
       ]
     },
     {
@@ -35,6 +32,13 @@
             "fr": "[seti:plan] Navigation"
           },
           "slug": "getting-started/navigation"
+        },
+        {
+          "label": "[seti:vite] Workflow",
+          "translations": {
+            "fr": "[seti:plan] Navigation"
+          },
+          "autogenerate": { "directory": "swiftui/workflow" }
         }
       ]
     },
