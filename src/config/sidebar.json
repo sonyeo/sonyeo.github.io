@@ -1,6 +1,15 @@
 {
   "main": [
     {
+      "label": "SwiftUI",
+      "items": [
+        {
+          "label": "[seti:vite] Workflow",
+          "autogenerate": { "directory": "swiftui/workflow" }
+        }
+      ]
+    },
+    {
       "label": "Getting Started",
       "translations": {
         "fr": "Commencer"
