@@ -1,37 +1,19 @@
 ---
-title: Features Overview
-description: Welcome to your documentation site
+title: 한글 테스트 1
+description: 한글 테스트 2
 ---
 
-import Grid from "~/components/user-components/Grid.astro";
-import NewCard from "~/components/user-components/NewCard.astro";
-import Button from "~/components/user-components/Button.astro";
-import Accordion from "~/components/user-components/Accordion.astro";
+# 제목1
+## 제목2
 
-# Features Overview
+리스트
+1. 첫번째
+2. 두번째
 
-<Grid columns={3}>
-  <NewCard title="Fast Setup" icon="rocket">
-    Get started in minutes with our pre-configured setup
-  </NewCard>
+안녕하세요  
+개행 연습
+두번째 개행
 
-{" "}
-<NewCard title="Custom Components" icon="document">
-  Rich set of components for beautiful documentation
-</NewCard>
+> 인용구
 
-  <NewCard title="Multilingual" icon="setting">
-    Built-in support for multiple languages
-  </NewCard>
-</Grid>
-
-<Accordion
-  question="How do I add more pages?"
-  answer="Simply create new .md or .mdx files in the src/content/docs/ directory"
-/>
-
-<Button
-  label="View Full Documentation"
-  link="/docs/components/using-components"
-  variant="primary"
-/>
+![](./paste-image/insong/2025-12-12-22-01-19.png)
